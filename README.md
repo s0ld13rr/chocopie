@@ -35,6 +35,7 @@ Run the script:
 ```bash
 python script.py
 ```
+![POC](https://github.com/s0ld13rr/chocopie/blob/main/PoC.jpg)
 
 The script will:
 1. Search for `.ovpn` files on the `C:\` drive.
