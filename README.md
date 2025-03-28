@@ -1,4 +1,4 @@
-# chocopie - Red Team Host Reconnaissance Tool 🥧
+# ChocoPie - Red Team Host Reconnaissance Tool 🥧
 
 ## Description
 This tool is designed for reconnaissance on a host system, specifically to check for the presence of VPN configuration files. It scans the system drive (`C:\Users\`) for OpenVPN configuration files (`.ovpn`) and extracts VPN-related configurations from CheckPoint Endpoint Connect logs. The found data is then automatically sent to a Telegram bot.
