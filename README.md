@@ -33,7 +33,11 @@ This tool is designed for reconnaissance on a host system, specifically to check
 ## Usage
 Run the script:
 ```bash
-python script.py
+python chocopie.py
+```
+Or you may compile it with PyInstaller:
+```bash
+chocopie.exe
 ```
 ![POC](https://github.com/s0ld13rr/chocopie/blob/main/PoC.jpg)
 
