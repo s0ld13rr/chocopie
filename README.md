@@ -1,7 +1,7 @@
 # chocopie - Red Team Host Reconnaissance Tool 🥧
 
 ## Description
-This tool is designed for reconnaissance on a host system, specifically to check for the presence of VPN configuration files. It scans the system drive (`C:\`) for OpenVPN configuration files (`.ovpn`) and extracts VPN-related configurations from CheckPoint Endpoint Connect logs. The found data is then automatically sent to a Telegram bot.
+This tool is designed for reconnaissance on a host system, specifically to check for the presence of VPN configuration files. It scans the system drive (`C:\Users\`) for OpenVPN configuration files (`.ovpn`) and extracts VPN-related configurations from CheckPoint Endpoint Connect logs. The found data is then automatically sent to a Telegram bot.
 
 ## Features
 - Scans `C:\Users\` for `.ovpn` files.
@@ -42,7 +42,7 @@ chocopie.exe
 ![POC](https://github.com/s0ld13rr/chocopie/blob/main/PoC.jpg)
 
 The script will:
-1. Search for `.ovpn` files on the `C:\` drive.
+1. Search for `.ovpn` files on the `C:\Users\` folder.
 2. Extract VPN configuration details from CheckPoint's logs.
 3. Send the findings to the configured Telegram chat.
 4. Optionally, delete the extracted files after sending.
